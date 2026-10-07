@@ -1,0 +1,5 @@
+{"id": "err1", "image": "images/err1.png", "error_text": "Payment Declined: your card ending 4242 was declined.", "key_phrase": "card", "intent": "billing"}
+{"id": "err2", "image": "images/err2.png", "error_text": "HTTP 429: Too Many Requests - rate limit exceeded.", "key_phrase": "429", "intent": "technical"}
+{"id": "err3", "image": "images/err3.png", "error_text": "Login Failed: incorrect password (3 attempts remaining).", "key_phrase": "password", "intent": "account"}
+{"id": "err4", "image": "images/err4.png", "error_text": "Application Error: NullPointerException at Dashboard.render", "key_phrase": "nullpointerexception", "intent": "technical"}
+{"id": "err5", "image": "images/err5.png", "error_text": "Subscription Expired - renew your plan to restore access.", "key_phrase": "subscription", "intent": "billing"}

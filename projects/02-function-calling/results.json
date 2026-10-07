@@ -1,0 +1,33 @@
+{
+  "project": "02-function-calling",
+  "metric": "tool-selection accuracy",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "deepseek-v4-pro",
+      "value": 91.7,
+      "notes": "tool-selection 11/12, args(ticket_id) ok 11/12"
+    },
+    {
+      "model": "kimi-k2p5",
+      "value": 91.7,
+      "notes": "tool-selection 11/12, args(ticket_id) ok 11/12"
+    },
+    {
+      "model": "kimi-k2p6",
+      "value": 91.7,
+      "notes": "tool-selection 11/12, args(ticket_id) ok 11/12"
+    },
+    {
+      "model": "glm-5p1",
+      "value": 91.7,
+      "notes": "tool-selection 11/12, args(ticket_id) ok 11/12"
+    },
+    {
+      "model": "gpt-oss-120b",
+      "value": 83.3,
+      "notes": "tool-selection 10/12, args(ticket_id) ok 10/12"
+    }
+  ],
+  "run_at": "2026-06-11T00:55:55.854997+00:00"
+}

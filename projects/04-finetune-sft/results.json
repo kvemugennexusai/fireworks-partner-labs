@@ -1,0 +1,18 @@
+{
+  "project": "04-finetune-sft",
+  "metric": "intent accuracy (base vs SFT)",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "llama-v3p1-8b-instruct (base)",
+      "value": 66.7,
+      "notes": "intent accuracy on 12 held-out tickets, n=12"
+    },
+    {
+      "model": "support-copilot-sft-v2 (LoRA SFT)",
+      "value": 83.3,
+      "notes": "intent accuracy on 12 held-out tickets; LoRA r16, 5 epochs, batch-size-samples 8, 96 synthetic train examples; delta +16.6 pts vs base"
+    }
+  ],
+  "run_at": "2026-06-11T02:07:47.567309+00:00"
+}

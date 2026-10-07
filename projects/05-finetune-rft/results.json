@@ -1,0 +1,18 @@
+{
+  "project": "05-finetune-rft",
+  "metric": "intent accuracy (SFT vs RFT)",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "support-copilot-sft-v2 (SFT)",
+      "value": 83.3,
+      "notes": "intent accuracy on 12 held-out tickets (imitation/SFT baseline)"
+    },
+    {
+      "model": "support-copilot-rft (RFT)",
+      "value": 100.0,
+      "notes": "intent accuracy on 12 held-out tickets; reward-optimized (correctness reward via eval-protocol evaluator), LoRA r16, 5 epochs; delta +16.7 pts vs SFT. RFT fixed the exact 2 boundary cases SFT missed (t11 billing, t12 technical -> both SFT-misrouted to account). 100% is one sample on 12 tickets and nondeterministic; robust claim is RFT > SFT. RFT reward curve climbed 0.66->0.85."
+    }
+  ],
+  "run_at": "2026-06-11T04:56:47.082414+00:00"
+}

@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.pytest_cache/
+# keep results.json (committed); ignore large local artifacts
+*.safetensors
+hf_cache/
+projects/03-rag/_*.jsonl
+projects/03-rag/_*_eval.json
+projects/04-finetune-sft/_eval_*.json
+*.tar.gz
+projects/05-finetune-rft/_eval_*.json
+projects/06-evals/_clf_*.json
+projects/06-evals/_judge_*.json
+projects/08-serving-perf/_bench_*.json

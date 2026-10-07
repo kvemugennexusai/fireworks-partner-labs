@@ -1,0 +1,43 @@
+{
+  "project": "07-multi-lora",
+  "metric": "multi-LoRA cost per tenant ($/mo, vs dedicated)",
+  "unit": "USD",
+  "rows": [
+    {
+      "model": "1 tenants",
+      "value": 6562.7,
+      "notes": "multi-LoRA $6,563/tenant/mo vs dedicated $6,563 -> 0.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "2 tenants",
+      "value": 3281.35,
+      "notes": "multi-LoRA $3,281/tenant/mo vs dedicated $6,563 -> 50.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "5 tenants",
+      "value": 1312.54,
+      "notes": "multi-LoRA $1,313/tenant/mo vs dedicated $6,563 -> 80.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "10 tenants",
+      "value": 656.27,
+      "notes": "multi-LoRA $656/tenant/mo vs dedicated $6,563 -> 90.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "25 tenants",
+      "value": 262.51,
+      "notes": "multi-LoRA $263/tenant/mo vs dedicated $6,563 -> 96.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "50 tenants",
+      "value": 131.25,
+      "notes": "multi-LoRA $131/tenant/mo vs dedicated $6,563 -> 98.0% cheaper (1 base(s))"
+    },
+    {
+      "model": "100 tenants",
+      "value": 65.63,
+      "notes": "multi-LoRA $66/tenant/mo vs dedicated $6,563 -> 99.0% cheaper (1 base(s))"
+    }
+  ],
+  "run_at": "2026-06-11T06:25:58.114696+00:00"
+}

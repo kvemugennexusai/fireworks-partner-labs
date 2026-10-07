@@ -1,0 +1,18 @@
+{
+  "project": "03-rag",
+  "metric": "answer quality (LLM-judge, grounded vs ungrounded)",
+  "unit": "1-5",
+  "rows": [
+    {
+      "model": "deepseek-v4-pro (ungrounded)",
+      "value": 3.583,
+      "notes": "mean judge 1-5 over 12 tickets, ticket only"
+    },
+    {
+      "model": "deepseek-v4-pro (grounded RAG)",
+      "value": 3.833,
+      "notes": "mean judge 1-5 over 12 tickets; embed=nomic-ai/nomic-embed-text-v1.5, top-2, retrieval@1=100.0%. Bimodal: +2 where policy is specific (t01,t12), but -4 on t08 (no policy covers it -> forced retrieval makes the model deflect). Net mean hides this."
+    }
+  ],
+  "run_at": "2026-06-11T01:01:27.191307+00:00"
+}

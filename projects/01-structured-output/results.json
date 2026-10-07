@@ -1,0 +1,33 @@
+{
+  "project": "01-structured-output",
+  "metric": "valid-JSON rate",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "deepseek-v4-pro",
+      "value": 100.0,
+      "notes": "valid 12/12, accuracy 100.0% (12/12)"
+    },
+    {
+      "model": "kimi-k2p5",
+      "value": 100.0,
+      "notes": "valid 12/12, accuracy 91.7% (11/12)"
+    },
+    {
+      "model": "kimi-k2p6",
+      "value": 100.0,
+      "notes": "valid 12/12, accuracy 91.7% (11/12)"
+    },
+    {
+      "model": "glm-5p1",
+      "value": 100.0,
+      "notes": "valid 12/12 THIS run; reruns ~92% (11/12) - intermittently leaks chain-of-thought into content and runs out of tokens before emitting JSON (nondeterministic). accuracy 91.7% (11/12)"
+    },
+    {
+      "model": "gpt-oss-120b",
+      "value": 100.0,
+      "notes": "valid 12/12, accuracy 91.7% (11/12)"
+    }
+  ],
+  "run_at": "2026-06-11T00:27:57.495859+00:00"
+}

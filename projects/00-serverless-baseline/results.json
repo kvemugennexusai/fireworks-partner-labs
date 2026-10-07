@@ -1,0 +1,33 @@
+{
+  "project": "00-serverless-baseline",
+  "metric": "intent accuracy",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "deepseek-v4-pro",
+      "value": 91.7,
+      "notes": "11/12 correct"
+    },
+    {
+      "model": "kimi-k2p5",
+      "value": 83.3,
+      "notes": "10/12 correct"
+    },
+    {
+      "model": "kimi-k2p6",
+      "value": 91.7,
+      "notes": "11/12 correct"
+    },
+    {
+      "model": "glm-5p1",
+      "value": 83.3,
+      "notes": "10/12 correct"
+    },
+    {
+      "model": "gpt-oss-120b",
+      "value": 100.0,
+      "notes": "12/12 correct"
+    }
+  ],
+  "run_at": "2026-06-11T00:13:10.607596+00:00"
+}

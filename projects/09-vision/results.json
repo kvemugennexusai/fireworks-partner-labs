@@ -1,0 +1,18 @@
+{
+  "project": "09-vision",
+  "metric": "vision: error extraction + intent routing",
+  "unit": "%",
+  "rows": [
+    {
+      "model": "qwen3-vl-8b-instruct (extraction)",
+      "value": 100.0,
+      "notes": "key error phrase surfaced from screenshot, 5/5 images"
+    },
+    {
+      "model": "qwen3-vl-8b-instruct (routing)",
+      "value": 80.0,
+      "notes": "intent routed correctly from screenshot, 4/5 images"
+    }
+  ],
+  "run_at": "2026-06-12T02:40:59.016842+00:00"
+}

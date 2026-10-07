@@ -1,0 +1,3 @@
+openai>=1.30
+numpy>=1.24
+# add per-project as needed: faiss-cpu / chromadb (RAG), pillow (vision), reward-kit (RFT)

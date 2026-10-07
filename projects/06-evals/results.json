@@ -1,0 +1,38 @@
+{
+  "project": "06-evals",
+  "metric": "shared gate: accuracy (%) + rubric judge (1-5)",
+  "unit": "mixed",
+  "rows": [
+    {
+      "model": "deepseek-v4-pro",
+      "value": 91.7,
+      "notes": "intent accuracy, 12 tickets"
+    },
+    {
+      "model": "kimi-k2p5",
+      "value": 91.7,
+      "notes": "intent accuracy, 12 tickets"
+    },
+    {
+      "model": "kimi-k2p6",
+      "value": 100.0,
+      "notes": "intent accuracy, 12 tickets"
+    },
+    {
+      "model": "glm-5p1",
+      "value": 91.7,
+      "notes": "intent accuracy, 12 tickets"
+    },
+    {
+      "model": "gpt-oss-120b",
+      "value": 91.7,
+      "notes": "intent accuracy, 12 tickets"
+    },
+    {
+      "model": "deepseek-v4-pro draft / gpt-oss-120b judge",
+      "value": 3.555,
+      "notes": "rubric judge 1-5 (mean of 3 runs), stability +/-0.039; runs=[3.5, 3.583, 3.583]"
+    }
+  ],
+  "run_at": "2026-06-11T06:04:04.704391+00:00"
+}
